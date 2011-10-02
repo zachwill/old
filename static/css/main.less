@@ -1,10 +1,52 @@
-@green: #8fc829;
+@blue: #0071b6;
 
-/* Link Color and Styles */
-/* a, a:active, a:visited { color: @green; } */
-/* a:hover { text-decoration: underline; } */
-
+@import "bootstrap/mixins.less";
 
 /* Custom highlight */
-::-moz-selection{ background:@green; color:#fff; text-shadow: none; }
-::selection { background:@green; color:#fff; text-shadow: none; }
+::-moz-selection{ background:@blue; color:#fff; text-shadow: none; }
+::selection { background:@blue; color:#fff; text-shadow: none; }
+
+body{
+    margin-top: 100px;
+    &:after{
+        content: url(/static/img/idea_yellow.png);
+        display: none;
+    }
+}
+
+.idea{
+    background: url(/static/img/idea.png) no-repeat center center;
+    height: 500px;
+}
+
+.idea_light{
+    background: url(/static/img/idea_yellow.png) no-repeat center center;
+    height: 500px;
+    visibility: hidden;
+}
+
+.path{
+    background: url(/static/img/shuffle.png) no-repeat 232px bottom;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.mac{
+    background: url(/static/img/macbook.png) no-repeat center center;
+    height: 400px;
+}
+
+.about{
+    margin-top: 100px;
+    p{
+        line-height: 1.7;
+        &:last-child{
+            margin-top: 18px;
+        }
+    }
+}
+
+footer{
+    border: none;
+    height: 80px;
+}

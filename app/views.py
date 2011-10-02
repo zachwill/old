@@ -17,6 +17,12 @@ def home():
     return render_template('home.html')
 
 
+@views.route('/blog/')
+def blog():
+    """Redirect to actual blog."""
+    return redirect('http://zachwill.posterous.com')
+
+
 # The functions below should be applicable to all Flask apps.
 
 @views.route('/<file_name>.txt')
