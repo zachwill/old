@@ -6,5 +6,13 @@ body{margin-top:100px;}body:after{content:url(/static/img/idea_yellow.png);displ
 .idea_light{background:url(/static/img/idea_yellow.png) no-repeat center center;height:500px;visibility:hidden;}
 .path{background:url(/static/img/shuffle.png) no-repeat 222px bottom;height:500px;margin-top:80px;}
 .mac{background:url(/static/img/macbook.png) no-repeat center center;height:400px;}
+.slides{background:#222;margin-left:108px;margin-top:88px;width:305px;}.slides div{background:red;height:190px;width:305px;}
+.slides .green{background:green;}
+.slides .blue{background:blue;}
+.slides .purple{background:purple;}
+.slides .yellow{background:yellow;}
+.controls{clear:both;height:18px;}.controls a{display:block;margin-top:170px;}
+.controls .prev{float:left;}
+.controls .next{float:right;}
 .about{margin-top:100px;}.about p{line-height:1.7;}.about p:last-child{margin-top:18px;}
 footer{border:none;height:80px;}
