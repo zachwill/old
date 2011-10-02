@@ -22,7 +22,7 @@
             interval: 400,
             browserWindow: false,
             easing: ""
-		},
+        },
         width: 305
     });
 
