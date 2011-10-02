@@ -6,14 +6,15 @@
   Name: Zach Williams
   Site: www.zachwill.com
   Twitter: @zachwill
-  Location: DFW, Texas
+  Location: San Francisco / DFW
   Github: github.com/zachwill
 
 
 /* SITE */
-  Standards: HTML5, CSS3, PEP8 (Python ftw)
+  Standards: HTML5, CSS3, PEP-8 (Python ftw)
   Components: Modernizr, jQuery
-  Software: Flask, Google App Engine
+  Software: Flask
+  Hosting: Heroku
 
 
 
