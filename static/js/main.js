@@ -17,6 +17,7 @@
         navigation: false,
         next: 'next',
         pagination: false,
+        preload: true,
         prev: 'prev',
         slide: {
             interval: 400,
