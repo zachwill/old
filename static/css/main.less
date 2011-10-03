@@ -3,14 +3,31 @@
 @import "bootstrap/mixins.less";
 
 /* Custom highlight */
-::-moz-selection{ background:@blue; color:#fff; text-shadow: none; }
-::selection { background:@blue; color:#fff; text-shadow: none; }
+::-moz-selection{ background:@blue; color:#fff; text-shadow: -1px 1px 1px darken(@blue, 10%); }
+::selection { background:@blue; color:#fff; text-shadow: -1px 1px 1px darken(@blue, 10%); }
 
 body{
     margin-top: 100px;
     &:after{
         content: url(/static/img/idea_yellow.png);
         display: none;
+    }
+}
+
+.secondary-nav{
+    a{
+        display: block;
+        text-indent: -999em;
+        width: 30px;
+    }
+    .blog{
+        background: url(/static/img/blog.png) no-repeat center center;
+    }
+    .github{
+        background: url(/static/img/github_gray.png) no-repeat center center;
+    }
+    .twitter{
+        background: url(/static/img/twitter.png) no-repeat center center;
     }
 }
 
