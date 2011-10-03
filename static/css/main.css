@@ -1,7 +1,7 @@
 
 ::-moz-selection{background:#0071b6;color:#fff;text-shadow:-1px 1px 1px #005183;}
 ::selection{background:#0071b6;color:#fff;text-shadow:-1px 1px 1px #005183;}
-body{margin-top:100px;}body:after{content:url(/static/img/idea_yellow.png);display:none;}
+body{margin-top:100px;}body:after{content:url(/static/img/idea.png) url(/static/img/idea_yellow.png);display:none;}
 .secondary-nav a{display:block;text-indent:-999em;width:40px;}
 .secondary-nav .blog{background:url(/static/img/blog.png) no-repeat center center;}
 .secondary-nav .github{background:url(/static/img/github_gray.png) no-repeat center center;}
