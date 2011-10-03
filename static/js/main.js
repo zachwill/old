@@ -11,6 +11,18 @@
     });
 
 
+    // Scroll to the bottom of the page when the lightbulb is clicked.
+    var idea = $('.idea');
+
+    idea.click(function(e) {
+      var height = $(document).height();
+
+      $('html, body').animate({
+        scrollTop: height
+      }, 500);
+    });
+
+
     // Create slider.
     var slides = $('.slides');
 
