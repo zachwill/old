@@ -12,7 +12,9 @@
 
 
     // Create slider.
-    $('.slides').slides({
+    var slides = $('.slides');
+
+    slides.slides({
         height: 190,
         navigation: false,
         next: 'next',
@@ -46,5 +48,8 @@
         });
     });
 
+
+    // And, lastly, auto-play slider.
+    slides.slides('play');
 
 })(window, jQuery);
