@@ -48,8 +48,4 @@
         });
     });
 
-
-    // And, lastly, auto-play slider.
-    slides.slides('play');
-
 })(window, jQuery);
