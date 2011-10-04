@@ -6,6 +6,8 @@
     idea.click(function(e) {
       var height = $(document).height();
 
+      e.preventDefault();
+
       $('html, body').animate({
         scrollTop: height
       }, 600);
