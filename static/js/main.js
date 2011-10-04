@@ -1,16 +1,5 @@
 (function(window, $) {
 
-    // Lightbulb becomes yellow on scroll.
-    $(window).scroll(function(e) {
-        var light = $('.idea_light'),
-            visibility = light.css('visibility');
-
-        if (visibility == 'hidden') {
-            light.css('visibility', 'visible');
-        }
-    });
-
-
     // Scroll to the bottom of the page when the lightbulb is clicked.
     var idea = $('.idea');
 
@@ -19,7 +8,7 @@
 
       $('html, body').animate({
         scrollTop: height
-      }, 500);
+      }, 600);
     });
 
 

@@ -1,17 +1,17 @@
 
 ::-moz-selection{background:#0071b6;color:#fff;text-shadow:-1px 1px 1px #005183;}
 ::selection{background:#0071b6;color:#fff;text-shadow:-1px 1px 1px #005183;}
-body{margin-top:100px;}body:after{content:url(/static/img/idea.png) url(/static/img/idea_yellow.png);display:none;}
+body{margin-top:100px;}body:after{content:url(/static/img/idea_yellow.png);display:none;}
 .secondary-nav a{display:block;text-indent:-999em;width:40px;}
 .secondary-nav .blog{background:url(/static/img/blog.png) no-repeat center center;}
 .secondary-nav .github{background:url(/static/img/github_gray.png) no-repeat center center;}
 .secondary-nav .twitter{background:url(/static/img/twitter.png) no-repeat center center;}
-.idea{background:url(/static/img/idea.png) no-repeat center center;height:500px;}
-.idea_light{background:url(/static/img/idea_yellow.png) no-repeat center center;height:500px;visibility:hidden;}
+.idea{background:url(/static/img/idea_yellow.png) no-repeat center center;display:block;height:500px;margin:0 auto;width:500px;}
 .path{background:url(/static/img/shuffle.png) no-repeat 222px bottom;height:500px;margin-top:80px;}
 .mac{background:url(/static/img/macbook.png) no-repeat center center;height:400px;}
 .slides{background:#222;height:192px;margin-left:107px;margin-top:87px;width:307px;}.slides div{height:190px;width:305px;}
 .slides .madewithdata{background:url(/static/img/sites/madewithdata.png) #222222 no-repeat center center;}
+.slides .abhi_ipsum{background:url(/static/img/sites/abhi_ipsum.png) #222222 no-repeat center center;}
 .slides .holycatchphrase{background:url(/static/img/sites/holycatchphrase.png) #222222 no-repeat center center;}
 .slides .texasemployed{background:url(/static/img/sites/texasemployed.png) #222222 no-repeat center center;}
 .slides .green{background:green;}

@@ -9,7 +9,7 @@
 body{
     margin-top: 100px;
     &:after{
-        content: url(/static/img/idea.png) url(/static/img/idea_yellow.png);
+        content: url(/static/img/idea_yellow.png);
         display: none;
     }
 }
@@ -32,14 +32,11 @@ body{
 }
 
 .idea{
-    background: url(/static/img/idea.png) no-repeat center center;
-    height: 500px;
-}
-
-.idea_light{
     background: url(/static/img/idea_yellow.png) no-repeat center center;
+    display: block;
     height: 500px;
-    visibility: hidden;
+    margin: 0 auto;
+    width: 500px;
 }
 
 .path{
@@ -65,6 +62,9 @@ body{
     }
     .madewithdata{
         background: url(/static/img/sites/madewithdata.png) #222 no-repeat center center;
+    }
+    .abhi_ipsum{
+        background: url(/static/img/sites/abhi_ipsum.png) #222 no-repeat center center;
     }
     .holycatchphrase{
         background: url(/static/img/sites/holycatchphrase.png) #222 no-repeat center center;
