@@ -7,6 +7,7 @@ body{margin-top:60px;}body:after{content:url(/static/img/idea_yellow.png);displa
 .path{background:url(/static/img/shuffle.png) no-repeat 222px bottom;height:500px;margin-top:80px;}
 .mac{background:url(/static/img/macbook.png) no-repeat center center;height:400px;}
 .slides{background:#222;height:192px;margin-left:107px;margin-top:87px;width:307px;}.slides div{height:190px;width:305px;}
+.slides .excssive{background:url(/static/img/sites/excssive.png) #222222 no-repeat center center;}
 .slides .markdrop{background:url(/static/img/sites/markdrop.png) #222222 no-repeat center center;}
 .slides .domainsaurus{background:url(/static/img/sites/domainsaurus.png) #222222 no-repeat center center;}
 .slides .madewithdata{background:url(/static/img/sites/madewithdata.png) #222222 no-repeat center center;}
