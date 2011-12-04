@@ -1,9 +1,5 @@
 <!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
   <meta charset="utf-8">
 
@@ -29,23 +25,13 @@
 
   <!-- Need Modernizr? Uncomment the following script. -->
   <!-- <script src="/static/js/libs/modernizr-2.0.6.js"></script> -->
-
 </head>
 
 <body>
 
-  <header>
-    {% include "header.html" %}
-  </header>
-
   <div id="main" role="main">
     {% block main %}{% endblock %}
   </div>
-
-  <footer>
-    {% block footer %}{% endblock %}
-  </footer>
-
 
   <!-- JavaScript at the bottom for fast page loading -->
 

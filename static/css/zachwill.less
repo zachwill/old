@@ -1,4 +1,4 @@
-@blue: #0071b6;
+@blue: #21a6da;
 
 @import "bootstrap/mixins.less";
 
@@ -7,110 +7,36 @@
 ::selection { background:@blue; color:#fff; text-shadow: -1px 1px 1px darken(@blue, 10%); }
 
 body{
-    margin-top: 60px;
-    &:after{
-        content: url(/static/img/idea_yellow.png);
-        display: none;
+    #gradient > .vertical(#eee, #ddd);
+    min-height: 500px;
+    padding: 150px 0;
+}
+
+a{
+    color: darken(@blue, 10%);
+    &:active, &:hover{
+        color: darken(@blue, 20%);
     }
 }
 
-.secondary-nav{
-    a{
-        display: block;
-        text-align: center;
-        width: 50px;
-    }
-}
-
-.idea{
-    background: url(/static/img/idea_yellow.png) no-repeat center center;
-    display: block;
-    height: 500px;
-    margin: 0 auto;
-    width: 500px;
-}
-
-.path{
-    background: url(/static/img/shuffle.png) no-repeat 222px bottom;
-    height: 500px;
-    margin-top: 80px;
-}
-
-.mac{
-    background: url(/static/img/macbook.png) no-repeat center center;
+.zachbook{
+    background: url(/static/img/zachbook.png) no-repeat center center;
     height: 400px;
 }
 
-.slides{
-    background: #222;
-    height: 192px;
-    margin-left: 107px;
-    margin-top: 87px;
-    width: 307px;
-    div{
-        height: 190px;
-        width: 305px;
+.info{
+    text-shadow: -1px 1px 1px fadeout(#fff, 50%);
+    h1{
+        margin-bottom: 25px;
     }
-    .excssive{
-        background: url(/static/img/sites/excssive.png) #222 no-repeat center center;
-    }
-    .markdrop{
-        background: url(/static/img/sites/markdrop.png) #222 no-repeat center center;
-    }
-    .domainsaurus{
-        background: url(/static/img/sites/domainsaurus.png) #222 no-repeat center center;
-    }
-    .madewithdata{
-        background: url(/static/img/sites/madewithdata.png) #222 no-repeat center center;
-    }
-    .abhi_ipsum{
-        background: url(/static/img/sites/abhi_ipsum.png) #222 no-repeat center center;
-    }
-    .holycatchphrase{
-        background: url(/static/img/sites/holycatchphrase.png) #222 no-repeat center center;
-    }
-    .texasemployed{
-        background: url(/static/img/sites/texasemployed.png) #222 no-repeat center center;
-    }
-    .green{
-        background: green;
-    }
-    .blue{
-        background: blue;
-    }
-}
-
-.controls{
-    clear: both;
-    height: 18px;
-    a{
-        display: block;
-        height: 32px;
-        margin-top: 170px;
-        text-indent: -999em;
-        width: 32px;
-    }
-    .prev{
-        background: url(/static/img/prev.png) no-repeat center center;
-        float: left;
-    }
-    .next{
-        background: url(/static/img/next.png) no-repeat center center;
-        float: right;
-    }
-}
-
-.about{
-    margin-top: 100px;
     p{
-        line-height: 1.7;
-        &:last-child{
-            margin-top: 18px;
-        }
+        margin-top: 15px;
+        padding-right: 12px;
     }
 }
 
-footer{
-    border: none;
-    height: 40px;
+@media all and (orientation: portrait) {
+    body{
+        min-height: 900px;
+    }
 }
