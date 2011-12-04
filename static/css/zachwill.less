@@ -3,8 +3,14 @@
 @import "bootstrap/mixins.less";
 
 /* Custom highlight */
-::-moz-selection{ background:@blue; color:#fff; text-shadow: -1px 1px 1px darken(@blue, 10%); }
-::selection { background:@blue; color:#fff; text-shadow: -1px 1px 1px darken(@blue, 10%); }
+.custom-highlight{
+    background: @blue;
+    color: #fff;
+    text-shadow: -1px 1px 1px darken(@blue, 10%);
+}
+
+::-moz-selection{ .custom-highlight; }
+::selection{ .custom-highlight; }
 
 body{
     #gradient > .vertical(#eee, #ddd);
