@@ -1,0 +1,61 @@
+@import "less/mixins.less";
+
+@blue: #1c97d8;
+
+body {
+    border-top: 8px solid @blue;
+    h1, h2, h3, p{
+        font-family: 'Londrina Solid', sans-serif;
+        font-size: 145px;
+        font-weight: 400;
+        line-height: .9em;
+        text-shadow: 2px 2px 1px white;
+        text-transform: uppercase;
+    }
+}
+
+
+.row{
+    padding: 35px 0;
+}
+
+a{
+    color: @blue;
+    &:hover{
+        color: darken(@blue, 5%);
+        text-decoration: none;
+    }
+}
+
+/* Portrait Phone */
+@media (max-width: 480px) {
+    body{
+        h1, h2, h3, p{
+            font-size: 50px;
+        }
+    }
+    .row{
+        padding: 20px 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 979px) {
+    body{
+        h1, h2, h3, p{
+            font-size: 110px;
+        }
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    body{
+        h1, h2, h3, p{
+            font-size: 175px;
+        }
+    }
+    .row{
+        padding: 50px 0;
+    }
+}
